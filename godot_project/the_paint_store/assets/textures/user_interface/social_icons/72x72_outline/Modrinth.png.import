@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://buyimhl4kwl63"
-path="res://.godot/imported/Modrinth.png-60f837e6476e45fc6b0a672f0093a085.ctex"
+path="res://.godot/imported/Modrinth.png-a96b0093cc5e669c937703218195a0cf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/user_interface/social_icons/72x72_outline/Modrinth.png"
-dest_files=["res://.godot/imported/Modrinth.png-60f837e6476e45fc6b0a672f0093a085.ctex"]
+source_file="res://assets/textures/user_interface/social_icons/72x72_outline/Modrinth.png"
+dest_files=["res://.godot/imported/Modrinth.png-a96b0093cc5e669c937703218195a0cf.ctex"]
 
 [params]
 

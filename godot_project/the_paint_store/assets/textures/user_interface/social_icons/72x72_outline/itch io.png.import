@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dqm0w8su0hh7j"
-path="res://.godot/imported/itch io.png-495d8145967ed2b8f162461b94a051ef.ctex"
+path="res://.godot/imported/itch io.png-6f18763194fb74b91bc6448cb4bfb96e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/user_interface/social_icons/72x72_outline/itch io.png"
-dest_files=["res://.godot/imported/itch io.png-495d8145967ed2b8f162461b94a051ef.ctex"]
+source_file="res://assets/textures/user_interface/social_icons/72x72_outline/itch io.png"
+dest_files=["res://.godot/imported/itch io.png-6f18763194fb74b91bc6448cb4bfb96e.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dd3kojp4j55bm"
-path="res://.godot/imported/Patreon.png-efe54e5d1e278ded8e419e7cbf303b7a.ctex"
+path="res://.godot/imported/Patreon.png-c9145f8161917f5e8068e61284d78c14.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/user_interface/social_icons/72x72_outline/Patreon.png"
-dest_files=["res://.godot/imported/Patreon.png-efe54e5d1e278ded8e419e7cbf303b7a.ctex"]
+source_file="res://assets/textures/user_interface/social_icons/72x72_outline/Patreon.png"
+dest_files=["res://.godot/imported/Patreon.png-c9145f8161917f5e8068e61284d78c14.ctex"]
 
 [params]
 

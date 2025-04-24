@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dgxersbfo3jlu"
-path="res://.godot/imported/Steam.png-ff413d15ab48147b6e7bf16a38ae25e5.ctex"
+path="res://.godot/imported/Steam.png-979ab50c1eafcbccd263a93c1a804fba.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/user_interface/social_icons/72x72_outline/Steam.png"
-dest_files=["res://.godot/imported/Steam.png-ff413d15ab48147b6e7bf16a38ae25e5.ctex"]
+source_file="res://assets/textures/user_interface/social_icons/72x72_outline/Steam.png"
+dest_files=["res://.godot/imported/Steam.png-979ab50c1eafcbccd263a93c1a804fba.ctex"]
 
 [params]
 

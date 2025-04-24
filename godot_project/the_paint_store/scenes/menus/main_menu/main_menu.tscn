@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=3 uid="uid://kb1eovyij66f"]
+
+[ext_resource type="PackedScene" path="res://addons/maaacks_game_template/base/scenes/menus/main_menu/main_menu.tscn" id="1_peecx"]
+[ext_resource type="Script" uid="uid://u77y6uud8dm0" path="res://scenes/menus/main_menu/main_menu.gd" id="2_ub2bi"]
+[ext_resource type="PackedScene" uid="uid://d3butiewyeck2" path="res://scenes/menus/options_menu/master_options_menu_with_tabs.tscn" id="3_x31ro"]
+[ext_resource type="PackedScene" uid="uid://cqsgsemw086rw" path="res://scenes/credits/credits.tscn" id="4_0jpat"]
+
+[node name="MainMenu" instance=ExtResource("1_peecx")]
+script = ExtResource("2_ub2bi")
+game_scene_path = "uid://vb80kfhsmih8"
+options_packed_scene = ExtResource("3_x31ro")
+credits_packed_scene = ExtResource("4_0jpat")
+
+[node name="BackgroundMusicPlayer" parent="." index="1"]
+bus = &"Master"
+
+[node name="VersionLabel" parent="VersionMargin/VersionContainer" index="0"]
+text = "v0.1.0"
+
+[node name="TitleLabel" parent="MenuContainer/TitleMargin/TitleContainer" index="0"]
+text = "The Paint Store"

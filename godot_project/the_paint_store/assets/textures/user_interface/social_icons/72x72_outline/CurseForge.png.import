@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bjrh4wkqfyr6b"
-path="res://.godot/imported/CurseForge.png-915a03aab559c5698c769ddcd1c54752.ctex"
+path="res://.godot/imported/CurseForge.png-4ea9d82287a85387f05577e2e28aee98.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/user_interface/social_icons/72x72_outline/CurseForge.png"
-dest_files=["res://.godot/imported/CurseForge.png-915a03aab559c5698c769ddcd1c54752.ctex"]
+source_file="res://assets/textures/user_interface/social_icons/72x72_outline/CurseForge.png"
+dest_files=["res://.godot/imported/CurseForge.png-4ea9d82287a85387f05577e2e28aee98.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c5ydgj4a2ti7m"
-path="res://.godot/imported/LinkedIn.png-d566d715f51aa5c72eac5894de3a8b2c.ctex"
+path="res://.godot/imported/LinkedIn.png-880b2c9f78c1b46a37ab435e54730033.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/user_interface/social_icons/72x72_outline/LinkedIn.png"
-dest_files=["res://.godot/imported/LinkedIn.png-d566d715f51aa5c72eac5894de3a8b2c.ctex"]
+source_file="res://assets/textures/user_interface/social_icons/72x72_outline/LinkedIn.png"
+dest_files=["res://.godot/imported/LinkedIn.png-880b2c9f78c1b46a37ab435e54730033.ctex"]
 
 [params]
 

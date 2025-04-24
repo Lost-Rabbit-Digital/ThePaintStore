@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://buvu1tyf3qeg3"
-path="res://.godot/imported/Ko-Fi.png-99a1a6de6d6ae1f1988fcbb14055a815.ctex"
+path="res://.godot/imported/Ko-Fi.png-28635c02fc759861a4cab7b7b12e9034.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/user_interface/social_icons/72x72_outline/Ko-Fi.png"
-dest_files=["res://.godot/imported/Ko-Fi.png-99a1a6de6d6ae1f1988fcbb14055a815.ctex"]
+source_file="res://assets/textures/user_interface/social_icons/72x72_outline/Ko-Fi.png"
+dest_files=["res://.godot/imported/Ko-Fi.png-28635c02fc759861a4cab7b7b12e9034.ctex"]
 
 [params]
 

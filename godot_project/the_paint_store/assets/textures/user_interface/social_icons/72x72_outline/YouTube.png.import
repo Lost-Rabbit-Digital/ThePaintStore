@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://crc7ny8014t1d"
-path="res://.godot/imported/YouTube.png-a9d5237b6d91ea43779ea41017fd32a3.ctex"
+path="res://.godot/imported/YouTube.png-15654cd1c3d9192a58b62896bfbf5d38.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/user_interface/social_icons/72x72_outline/YouTube.png"
-dest_files=["res://.godot/imported/YouTube.png-a9d5237b6d91ea43779ea41017fd32a3.ctex"]
+source_file="res://assets/textures/user_interface/social_icons/72x72_outline/YouTube.png"
+dest_files=["res://.godot/imported/YouTube.png-15654cd1c3d9192a58b62896bfbf5d38.ctex"]
 
 [params]
 
