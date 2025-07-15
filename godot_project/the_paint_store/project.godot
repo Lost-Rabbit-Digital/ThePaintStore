@@ -11,8 +11,9 @@ config_version=5
 [application]
 
 config/name="The Paint Store"
-config/description="A topdown paint store simulator"
+config/description="A medieval paint shop simulator"
 config/version="0.1.0"
+config/tags=PackedStringArray("active", "commerical", "steam", "unpublished")
 run/main_scene="res://scenes/opening/opening_with_logo.tscn"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 boot_splash/show_image=false
