@@ -10,6 +10,12 @@
 [node name="floor-stairs2" parent="floor-stairs" instance=ExtResource("2_jme1o")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1)
 
+[node name="floor-stairs3" parent="floor-stairs" instance=ExtResource("2_jme1o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1)
+
+[node name="floor-stairs4" parent="floor-stairs" instance=ExtResource("2_jme1o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 1)
+
 [node name="floor-flat" type="Node" parent="."]
 
 [node name="floor-flat2" parent="floor-flat" instance=ExtResource("1_kty4e")]
