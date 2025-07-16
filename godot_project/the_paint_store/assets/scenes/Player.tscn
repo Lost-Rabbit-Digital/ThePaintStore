@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://bxcnbva5xy4j6"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_irk1o"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_jawt3"]
+
+[node name="Player" type="CharacterBody3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("CapsuleShape3D_irk1o")
+debug_color = Color(0.677056, 0.505445, 0, 0.42)
+
+[node name="Pivot" type="Node3D" parent="."]
+
+[node name="RigidBody3D" type="RigidBody3D" parent="Pivot"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Pivot/RigidBody3D"]
+mesh = SubResource("CapsuleMesh_jawt3")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Pivot/RigidBody3D"]
+transform = Transform3D(0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_irk1o")
+debug_color = Color(0.677056, 0.505445, 0, 0.42)

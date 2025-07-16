@@ -1,36 +1,39 @@
-[gd_scene load_steps=3 format=3 uid="uid://vb80kfhsmih8"]
+[gd_scene load_steps=6 format=3 uid="uid://vb80kfhsmih8"]
 
-[ext_resource type="PackedScene" uid="uid://kmk7x4n7hq1q" path="res://assets/models/floor-flat.glb" id="1_kty4e"]
-[ext_resource type="PackedScene" uid="uid://c75l12oeykiqj" path="res://assets/models/floor-stairs.glb" id="2_jme1o"]
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_agsou"]
+sky_horizon_color = Color(0.644484, 0.654511, 0.670124, 1)
+ground_bottom_color = Color(0.182192, 0.153302, 0.119751, 1)
+ground_horizon_color = Color(0.644484, 0.654511, 0.670124, 1)
+
+[sub_resource type="Sky" id="Sky_c3i38"]
+sky_material = SubResource("ProceduralSkyMaterial_agsou")
+
+[sub_resource type="Environment" id="Environment_kty4e"]
+background_mode = 2
+sky = SubResource("Sky_c3i38")
+tonemap_mode = 2
+
+[sub_resource type="BoxMesh" id="BoxMesh_jme1o"]
+size = Vector3(60, 0.25, 80)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_pq4i7"]
 
 [node name="MainPaintStore" type="Node2D"]
 
-[node name="floor-stairs" type="Node" parent="."]
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+light_color = Color(1, 0.878038, 0.666845, 1)
+shadow_enabled = true
 
-[node name="floor-stairs2" parent="floor-stairs" instance=ExtResource("2_jme1o")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1)
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_kty4e")
 
-[node name="floor-stairs3" parent="floor-stairs" instance=ExtResource("2_jme1o")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1)
+[node name="Environment" type="Node" parent="."]
 
-[node name="floor-stairs4" parent="floor-stairs" instance=ExtResource("2_jme1o")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 1)
+[node name="Ground" type="StaticBody3D" parent="Environment"]
 
-[node name="floor-flat" type="Node" parent="."]
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Environment/Ground"]
+mesh = SubResource("BoxMesh_jme1o")
 
-[node name="floor-flat2" parent="floor-flat" instance=ExtResource("1_kty4e")]
-
-[node name="floor-flat3" parent="floor-flat" instance=ExtResource("1_kty4e")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0)
-
-[node name="floor-flat6" parent="floor-flat" instance=ExtResource("1_kty4e")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1)
-
-[node name="floor-flat7" parent="floor-flat" instance=ExtResource("1_kty4e")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -1)
-
-[node name="floor-flat4" parent="floor-flat" instance=ExtResource("1_kty4e")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0)
-
-[node name="floor-flat5" parent="floor-flat" instance=ExtResource("1_kty4e")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -1)
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Environment/Ground"]
+shape = SubResource("BoxShape3D_pq4i7")
